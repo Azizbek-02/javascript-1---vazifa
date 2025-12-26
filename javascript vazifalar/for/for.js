@@ -117,7 +117,79 @@ console.log('-----------------12');
  }
  console.log(Ss);
 console.log('-----------------13');
-  
+
+// for 14
+let rr = 5;
+let oo = 3;
+let kk;
+for(ro = 1; ro < oo; ro++ ) {
+let yy = rr ** oo;
+kk = yy;
+}
+console.log(kk);
+console.log('-----------------15');
+
+
+// for 16
+let Aa = 3;
+let Nn = 5;
+for(Na = 1; Na <= Nn; Na++){
+    let ham = Aa ** Na
+   console.log(ham);
+
+}
+console.log('-----------------16');
+
+
+// for 17
+   let dd = 6;
+   let cc = 3;
+   let ced = 0;
+   for (let cd = 1; cd <= cc; cd++ ){
+    let kal = dd ** cd;
+    console.log(kal);
+    ced += kal
+   }
+   console.log(ced);
+console.log('-----------------17');
+
+// for 18
+let red = 2;
+let ged = 6;
+let sas = 0;
+let min = 1;
+let flow;
+for(let gas = 1; gas <= ged; gas++){
+      min = -min;
+    let flow = min * (red ** gas) ;
+    sas += flow;
+} 
+console.log(`darajalar yigindisi = ${sas}`);
+console.log('-----------------18');
+
+
+// for 19 
+let wet = 5;
+let fed=1;
+for (let hey = 1; hey <= wet; hey++){
+    fed  *=  hey;
+}
+   console.log(fed);
+console.log('-----------------19');
+
+
+// for 20 
+let   pok = 5;
+let desc = 1;
+let war = 0;
+for (let take = 1; take <= pok; take++){
+    desc *= take;
+    war += desc;
+}
+console.log(war);
+console.log('-----------------20');
+
+
 
 
 
