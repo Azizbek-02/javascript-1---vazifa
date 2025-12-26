@@ -92,8 +92,13 @@ console.log(xc);
 console.log('-----------------10');
 
 // for 11
+let bs = 5;
+ let ys = 0;   
+for( let ts = bs; ts <= 2 * bs; ts++ ){
+  ys += ts * ts;
+}
+console.log(ys);
 console.log('-----------------11');
-
 
 
 
@@ -118,7 +123,17 @@ console.log('-----------------12');
  console.log(Ss);
 console.log('-----------------13');
 
+
 // for 14
+let wt = 8;
+let wy = 0;
+for(let yt = 1; yt <= 2 * wt-1; yt += 2){
+    wy += yt
+}
+console.log(wy);
+console.log('-----------------14');
+
+// for 15
 let rr = 5;
 let oo = 3;
 let kk;
@@ -161,7 +176,7 @@ let min = 1;
 let flow;
 for(let gas = 1; gas <= ged; gas++){
       min = -min;
-    let flow = min * (red ** gas) ;
+     flow = min * (red ** gas) ;
     sas += flow;
 } 
 console.log(`darajalar yigindisi = ${sas}`);
@@ -188,6 +203,32 @@ for (let take = 1; take <= pok; take++){
 }
 console.log(war);
 console.log('-----------------20');
+
+
+// for 21
+let yb = 4;
+let ub = 1;
+ let fact = 1;
+for( let web = 1; web <= yb; web++){
+    fact *= web
+    ub += 1 / fact
+}
+console.log(ub);
+console.log('-----------------21');
+
+
+// for 22
+let x1 = 3;
+let n3 = 5;
+let p4 = 1;
+let f5 = 1;
+let s6 = 1;
+for( let xn = 1; xn <= n3; xn++){
+    p4 *= x1;
+    f5 *= xn;
+    s6 += p4 / f5;
+}
+console.log(s6);
 
 
 
