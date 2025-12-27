@@ -40,3 +40,51 @@ for (let oo = 1; oo <= o; oo++) {
     resu += res;
 }
 console.log(resu);
+console.log('---------------------- 4');
+
+
+// for 5
+let p = 6;
+let a = 0;
+for (let pa = 1; pa <= p; pa++){
+    let facta = 1;
+    facta *= pa;
+    a += 1 / facta;
+}
+console.log(a);
+console.log('---------------------- 5');
+
+
+// for 6
+let s = 6;
+let d = 0;
+for ( let sd = 1; sd <= s; sd++){
+    let factar = 1;
+    factar *= sd;
+    d += 1 / factar;
+}
+console.log(d);
+console.log('---------------------- 6');
+
+// for 7
+let ss = 9;
+let df = 0;
+for(let dsf = 1; dsf <= ss; dsf++){
+    let factari = 1;
+    factari *= dsf;
+    df += 1 / factari;
+}
+console.log(df);
+console.log('---------------------- 7');
+
+
+// for 8
+let g = 4;
+let gg = 0;
+for(let  h = 1; h <= g; h++){
+    let factaria = 1;
+    factaria *= h;
+    gg +=  1 / factaria; 
+}
+console.log(gg);
+console.log('---------------------- 8');
